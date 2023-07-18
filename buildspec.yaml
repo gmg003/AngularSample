@@ -29,6 +29,6 @@ phases:
       - ng build
 artifacts:
   files:
-    - dist/your-app-name/**/*
+    - "**/*"
   discard-paths: no
-  base-directory: dist/your-app-name
+  base-directory: dist/angular-aws-app
